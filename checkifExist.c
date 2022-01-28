@@ -28,3 +28,21 @@ int main(){
 
     return 0;
 }
+
+// An alternative
+//bool checkPair(int i, int j){
+//    if(i == 2*j || j == 2*i)
+//        return true;
+//   else
+//        return false;
+//}
+//
+//bool checkIfExist(int* arr, int arrSize){
+//    for(int i = 0; i < arrSize-1; ++i){
+//        for(int j = i+1; j < arrSize; ++j){
+//            if(checkPair(arr[i], arr[j])) 
+//                return true;
+//        }
+//    }
+//    return false;
+//}
